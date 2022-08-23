@@ -1,0 +1,9 @@
+.location{
+    display: inline-block;
+}
+.format {
+    display: block;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+}
