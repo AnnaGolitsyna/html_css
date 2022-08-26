@@ -1,8 +1,7 @@
 .padding{
-    box-sizing: content-box;
+    box-sizing: border-box;
     background-color: aqua;
-    width: 360px;
-    height: 11px;
+    
     border: 3px solid black;
     padding: 50px;
 }
