@@ -29,7 +29,10 @@ input[type='text'] {
   background-color: gray;
 }
 div:nth-of-type(3) > p {
-  background-color: yellowgreen;
+  background-color: yellow;
+}
+div:nth-last-of-type(3) > p:last-child {
+  border: 5px solid white;
 }
 div:nth-of-type(3) em {
   color: white;
