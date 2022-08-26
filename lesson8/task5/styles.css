@@ -1,0 +1,6 @@
+.paddMargin{
+    box-sizing: content-box;
+    padding: 50px;
+    border: 3px solid aqua;
+    margin-top: 50px;
+}
