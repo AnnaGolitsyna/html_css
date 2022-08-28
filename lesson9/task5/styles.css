@@ -2,70 +2,70 @@
   box-sizing: border-box;
 }
 
-.header, .navigation {
+.header,
+.navigation {
   background-color: darkturquoise;
   height: 40px;
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 /* .navigation {
   height: 40px;
 } */
 .nav-list {
-    margin: 0;
-    line-height: 40px;
-    color: white;
-  margin-left: 16px;
-  display: inline;
-
-}
-.nav-item{
+  margin: 0;
+  line-height: 40px;
   color: white;
   margin-left: 16px;
   display: inline;
-
+}
+.nav-item {
+  color: white;
+  margin-left: 16px;
+  display: inline;
 }
 .content {
   background-color: beige;
   height: 5000px;
 }
 .head {
-    position: relative;
-    background-color: aquamarine;
-    height: 200px;
-    width: 200px;
-    left: calc(50%);
-    top: calc(50%);
-
+  position: absolute;
+  background-color: aquamarine;
+  height: 200px;
+  width: 200px;
+  left: calc(50% - 100px);
+  top: calc(50% - 100px);
+  z-index: 1;
 }
 .ear {
-    background-color: brown;
-    height: 60px;
-    width: 40px;
+  background-color: brown;
+  height: 60px;
+  width: 40px;
 }
 .ear_right {
-    position: absolute;
-    top: -60px;
-    right: -40px;
+  position: absolute;
+  top: -60px;
+  right: -40px;
 }
 .ear_left {
-    position: absolute;
-    top: -60px;
-    left: -40px;
+  position: absolute;
+  top: -60px;
+  left: -40px;
 }
 .eye {
-    background-color: gray;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
+  background-color: gray;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
 }
 .eye_right {
-    position: absolute;
-    top: 80px;
-    right: 40px;
+  position: absolute;
+  top: 80px;
+  right: 40px;
 }
 .eye_left {
-    position: absolute;
-    top: 80px;
-    left: 40px;
+  position: absolute;
+  top: 80px;
+  left: 40px;
 }
