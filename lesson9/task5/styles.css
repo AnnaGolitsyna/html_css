@@ -2,20 +2,24 @@
   box-sizing: border-box;
 }
 
-.header {
+.header, .navigation {
   background-color: darkturquoise;
   height: 40px;
   position: fixed;
   width: 100%;
 }
-.navigation {
+/* .navigation {
   height: 40px;
-}
+} */
 .nav-list {
     margin: 0;
     line-height: 40px;
+    color: white;
+  margin-left: 16px;
+  display: inline;
+
 }
-.nav-list > .nav-item{
+.nav-item{
   color: white;
   margin-left: 16px;
   display: inline;
