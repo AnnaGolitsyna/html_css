@@ -5,8 +5,8 @@
 .header {
   position: fixed;
   width: 100%;
-  z-index: 2;
   background-color: darkturquoise;
+  z-index: 2;
 }
 .navigation {
   height: 40px;
@@ -22,6 +22,11 @@
   line-height: 40px;
   color: white;
 }
+
+.nav-item:nth-of-type(1) ~ li {
+  margin-left: 10px;
+}
+
 .content {
   background-color: beige;
   height: 5000px;
