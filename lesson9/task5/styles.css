@@ -3,20 +3,19 @@
 }
 
 .header {
-    position: fixed;
-    width: 100%;
-    z-index: 2;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  background-color: darkturquoise;
 }
 .navigation {
-  background-color: darkturquoise;
-  height: 40px;
 }
 
 .nav-list {
+  height: 40px;
   margin: 0;
   line-height: 40px;
-  padding: 0;
-
+  padding-left: 30px;
 }
 .nav-item {
   color: white;
