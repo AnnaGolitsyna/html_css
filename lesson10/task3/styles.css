@@ -11,7 +11,7 @@
 }
 .nav {
   display: flex;
-  margin: 0;
+  padding: 0;
   align-items: center;
   list-style-type: none;
 }
