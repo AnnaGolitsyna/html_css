@@ -6,9 +6,10 @@ html {
     list-style-type: none;
     color: #f39;
     font-size: 24px;
-    margin: 0;
+
 }
 .properties-list__item {
     height: 32px;
     padding: 8px;
+    line-height: 32px;
 }
