@@ -27,9 +27,9 @@ body {
 .form-control {
   margin-bottom: 8px;
 }
-.form-label {
-  margin-bottom: 4px;
-}
+/* .form-label {
+
+} */
 .form-input {
   height: 32px;
   border-radius: 4px;
@@ -37,6 +37,7 @@ body {
   padding: 4px;
   outline: none;
   width: 100%;
+  margin-top: 4px;
 }
 .form-input:invalid {
   border: 3px solid #ff0000;
@@ -45,7 +46,7 @@ body {
   height: 32px;
   background-color: #ff7f50;
   margin-top: 16px;
-  
+
   border-radius: 4px;
   color: #fff;
   width: 100%;
