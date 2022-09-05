@@ -14,7 +14,7 @@ table {
 }
 th,
 td {
-  padding: 4px;
+  /* padding: 4px; */
   text-align: right;
   height: 40px;
 }
@@ -30,6 +30,7 @@ tbody > tr:hover {
 }
 thead {
   background-color: aqua;
+  
 }
 tfoot {
   font-weight: 700;
