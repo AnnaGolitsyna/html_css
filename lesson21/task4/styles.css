@@ -38,13 +38,13 @@ body {
   padding: 0.5em;
 }
 .navigation {
-  width: 20%;
+  width: 20vw;
 }
 .section {
-  width: 60%;
+  width: 60vw;
 }
 .news {
-  width: 20%;
+  width: 20vw;
 }
 .units-list {
   line-height: 1.75em;
