@@ -70,6 +70,7 @@ body {
   overflow: hidden;
   white-space: noWrap;
   text-overflow: ellipsis;
+  padding-right: 0.5em;
 }
 .nav-list-link {
   color: white;
