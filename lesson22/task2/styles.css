@@ -15,7 +15,7 @@
 .news {
   min-height: 200px;
   display: flex;
-  flex-grow: 1;
+  flex: 1 1;
 }
 span {
   text-transform: lowercase;
@@ -28,7 +28,7 @@ span {
 @media screen and (min-width: 600px) {
   .inform {
     display: flex;
-    flex-grow: 2;
+    flex: 2 2;
   }
 }
 @media screen and (min-width: 900px) {
