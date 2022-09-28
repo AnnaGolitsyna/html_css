@@ -40,13 +40,9 @@ html {
   border: none;
   cursor: pointer;
   line-height: 3em;
-
 }
 
-/* .fa-bars {
-  font-size: 2em;
-} */
-.fas .fa-bars {
+.bars-icone {
   font-size: 2em;
 }
 
