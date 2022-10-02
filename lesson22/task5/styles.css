@@ -79,14 +79,11 @@ img {
   }
   .middleSize {
     display: flex;
-    flex-grow: 1;
   }
   .main {
-    flex: 1 0 auto;
+    flex-grow: 1;
   }
-  .footer {
-    flex-shrink: 0;
-  }
+
 }
 
 @media screen and (min-width: 1200px) {
