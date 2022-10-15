@@ -1,0 +1,33 @@
+@import 'breakpoints.scss';
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.square {
+  background-color: #ff7f50;
+  width: 100px;
+  height: 100px;
+  margin: 8px;
+
+  @include for-small {
+    background-color: #8a2be2;
+  }
+  @include for-middle {
+    background-color: #a61;
+  }
+  @include for-large {
+    background-color: #c47;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .container {
+    flex-direction: column;
+  }
+}
