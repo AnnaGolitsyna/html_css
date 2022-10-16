@@ -13,6 +13,7 @@
   align-items: center;
 
   &__item {
+    line-height: 3em;
     padding: 0 8px;
     color: white;
 
@@ -30,8 +31,7 @@
     cursor: pointer;
     background-color: #9acd32;
   }
-  &__item-text {
-  }
+  
   .submenu {
     display: none;
     padding: 0;
